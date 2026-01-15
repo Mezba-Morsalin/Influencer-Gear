@@ -50,6 +50,7 @@
     align-items: center;
     gap: 30px;
     padding: 50px 0;
+    overflow: hidden;
 }
 .banner-heading {
     font-size: 3.25rem;
@@ -80,6 +81,9 @@
 .btn:hover {
     color: #e02c6d;
     background-color: #ffffff;
+}
+.banner-img img {
+    width: 100%;
 }
 /* Sponsor Section */
 .sponsor-section {

@@ -42,9 +42,6 @@
         flex-direction: column;
         gap: 40px;
     }
-    .nav-links {
-        flex-wrap: wrap;
-    }
     .banner-section {
         flex-direction: column-reverse;
         background-position: top;
