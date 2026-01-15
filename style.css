@@ -61,6 +61,7 @@
     color: #3a3a3a;
     margin-bottom: 25px;
     font-weight: 500;
+    line-height: 24px;
 }
 .btn {
     background-color: #e02c6d;
@@ -88,4 +89,46 @@
     gap: 20px;
     align-items: center;
     padding: 0 30px;
+}
+.card-section {
+    margin-top: 100px;
+}
+.card-heading {
+    font-size: 1.75rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1050px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.card {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 6px;
+}
+.card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card-in-heading {
+    font-size:1.75rem ;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgba(24, 25, 31, 1);
+}
+.card-price {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #3a3a3a;
+}
+.card-description {
+    font-size: 0.87rem;
+    font-weight: 700;
+    color: rgba(120, 120, 133, 1);
+    margin-bottom: 5px;
 }
