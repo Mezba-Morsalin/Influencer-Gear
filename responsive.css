@@ -45,6 +45,7 @@
     .banner-section {
         flex-direction: column-reverse;
         background-position: top;
+        overflow: hidden;
     }
     .banner-content {
         text-align: center;
