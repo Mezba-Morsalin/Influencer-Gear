@@ -26,6 +26,16 @@
         padding: 0 20px;
         grid-template-columns: repeat(2, 1fr);
     }
+    .card-btn {
+        padding: 0 20px;
+    }
+    .feature-section {
+        flex-direction: column;
+    }
+    .feature-content {
+        padding: 0 20px;
+        text-align: center;
+    }
 }
 @media screen and (max-width: 576px) {
     .navbar {
@@ -54,6 +64,12 @@
         padding: 0 20px;
         grid-template-columns: repeat(1, 1fr);
     }
+    .card-btn {
+        padding: 0 20px;
+    }
+    .feature-section {
+        flex-direction: column-reverse;
+    }
 }
 @media screen and (min-width:768px) and (max-width:998px) {
     .banner-section {
@@ -65,9 +81,15 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
     }
+    .card-btn {
+        padding: 0 20px;
+    }
 }
 @media screen and (min-width:768px) and (max-width:1200px) {
-    .navbar, .banner-section, .card-container {
+    .navbar, .banner-section, .card-container, .card-btn {
+        padding: 0 20px;
+    }
+    .feature-section {
         padding: 0 20px;
     }
 }
