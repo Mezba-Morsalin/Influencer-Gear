@@ -3,15 +3,50 @@
         flex-direction: column;
         gap: 40px;
     }
+    .banner-section {
+        flex-direction: column-reverse;
+        background-position: top;
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .banner-heading {
+        font-size: 2.5rem;
+    }
+    .btn {
+        display: block;
+        margin: 20px auto;
+    }
 }
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
         gap: 40px;
     }
+    .banner-section {
+        flex-direction: column-reverse;
+        background-position: top;
+    }
+    .banner-content {
+        text-align: center;
+        padding: 0 10px;
+    }
+    .banner-heading {
+        font-size: 2.5rem;
+    }
+    .btn {
+        display: block;
+        margin: 20px auto;
+    }
+}
+@media screen and (min-width:768px) and (max-width:998px) {
+    .banner-section {
+        flex-direction: column-reverse;
+        background-position: top center;
+    }
 }
 @media screen and (min-width:768px) and (max-width:1200px) {
-    .navbar {
+    .navbar, .banner-section {
         padding: 0 20px;
     }
 }
