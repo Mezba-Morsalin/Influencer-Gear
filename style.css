@@ -45,11 +45,11 @@
     margin-top: 50px;
     background: url(./images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right ;
     display: flex;
     align-items: center;
     gap: 30px;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 .banner-heading {
     font-size: 3.25rem;
@@ -79,4 +79,13 @@
 .btn:hover {
     color: #e02c6d;
     background-color: #ffffff;
+}
+/* Sponsor Section */
+.sponsor-section {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    align-items: center;
+    padding: 0 30px;
 }

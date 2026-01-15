@@ -17,6 +17,10 @@
         display: block;
         margin: 20px auto;
     }
+    .sponsor-section {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
 }
 @media screen and (max-width: 768px) {
     .navbar {
@@ -38,11 +42,20 @@
         display: block;
         margin: 20px auto;
     }
+    .sponsor-section {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
 }
 @media screen and (min-width:768px) and (max-width:998px) {
     .banner-section {
         flex-direction: column-reverse;
         background-position: top center;
+        gap: 80px;
+    }
+    .sponsor-section {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
     }
 }
 @media screen and (min-width:768px) and (max-width:1200px) {
