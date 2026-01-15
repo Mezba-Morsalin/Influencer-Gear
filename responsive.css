@@ -6,6 +6,8 @@
     .banner-section {
         flex-direction: column-reverse;
         background-position: top;
+        padding: 0 40px;
+        gap: 100px;
     }
     .banner-content {
         text-align: center;
@@ -41,14 +43,22 @@
     .navbar {
         flex-direction: column;
         gap: 40px;
+        padding: 0 20px;
+    }
+    .nav-link {
+        font-size: 12px;
     }
     .banner-section {
         flex-direction: column-reverse;
         background-position: top;
-        overflow: hidden;
+        background-size: 100%;
+        padding: 0 20px;
     }
     .banner-content {
         text-align: center;
+    }
+    .banner-img img {
+    width: 100%;
     }
     .banner-heading {
         font-size: 2.5rem;
@@ -58,8 +68,12 @@
         margin: 20px auto;
     }
     .sponsor-section {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        align-items: center;
+    }
+    .sponsor img {
+        width: 100%;
     }
     .card-container {
         padding: 0 20px;
@@ -70,6 +84,9 @@
     }
     .feature-section {
         flex-direction: column-reverse;
+    }
+    .feature-img img {
+        width: 100%;
     }
 }
 @media screen and (min-width:768px) and (max-width:998px) {
